@@ -9,7 +9,7 @@ class Syntax{
         int [] num; -------> it is a declaration of arrys. num getting defined in stack(THIS THING HAPPENED AT COMPILE TIME)
         num = new int[5] ----------> initialization: actually here object is created in (heap) memory (THIS THING HAPPENED AT RUN TIME)*/
         /////THIS IS KNOW AS DYNAMIC MEMORY ALLOCATION.
-     int [] num2 = {1,2,3,4,5,6,7};
+     int [] num2 = {1,2,3,4,5,6,7}; //---------> java internal syntax
      //example for string
      String [] names = {"trump","elon","epstein","hawking"};
      Sysyem.out.println("names: " + names);
@@ -19,3 +19,12 @@ class Syntax{
 //2. heap objects are not continue but c++ have a continious memory allocation. why?
 //3. Dynamic Memory Allocation.
 //Hence array object in java may not continue(it's depends on JVM).why?
+
+//PRIMITIVE AND NON-PRIMITIVE
+//PRIMITIVE :
+   //----> something be can't broken down(int,float,double,char,short)
+   //----> something can be broken down (like arrays,string and bigger complex data types can be broken down)
+
+/*NOTE:-----> Objects are stored in Heap memory and Reference Variables Are Stred In Stack Memory
+               Each Purticular Element Of An Array it would be located in other memory*/
+              
